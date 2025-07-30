@@ -1,0 +1,582 @@
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.frame .content-wrapper {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 124px;
+  margin-top: -1.00px;
+  margin-left: -1.00px;
+  margin-right: -1.00px;
+  background-color: #ffffff;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #a5a5a5;
+}
+
+.frame .header-div {
+  position: absolute;
+  top: 37px;
+  left: 37px;
+  font-family: "Asta Sans OTF-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .content-wrapper-div {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 294px;
+  margin-left: -1.00px;
+  margin-right: -1.00px;
+  background-color: #ffffff;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #a5a5a5;
+}
+
+.frame .content-container {
+  display: flex;
+  width: 846px;
+  height: 198px;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 0px 40px;
+  position: relative;
+  top: 48px;
+}
+
+.frame .set {
+  display: flex;
+  flex-direction: column;
+  height: 198px;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.frame .info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px 0px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .title-artist-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.frame .title-div {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Asta Sans OTF-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.frame .artist-div {
+  position: relative;
+  align-self: stretch;
+  font-family: "Asta Sans OTF-Regular", Helvetica;
+  font-weight: 400;
+  color: #888888;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.frame .logo-switch-div {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: "Asta Sans OTF-Regular", Helvetica;
+  font-weight: 400;
+  color: #515151;
+  font-size: 27px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .toggle-switch {
+  position: relative;
+  width: 94px;
+  height: 54px;
+  background-color: #005bed;
+  border-radius: 100px;
+}
+
+.frame .switch {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  top: 8px;
+  left: 48px;
+  background-color: #ffffff;
+  border-radius: 100px;
+}
+
+.frame .traffic-bar-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 18px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .div {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 9px;
+  background-color: #d9d9d9;
+}
+
+.frame .content-container-wrapper {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 294px;
+  margin-left: -1.00px;
+  margin-right: -1.00px;
+  background-color: #ffffff;
+  overflow: hidden;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #a5a5a5;
+}
+
+.frame .content-container-2 {
+  display: flex;
+  width: 846px;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 0px 40px;
+  position: relative;
+  top: 48px;
+}
+
+.frame .album-cover-div {
+  position: relative;
+  width: 196px;
+  height: 196px;
+  background-image: url(https://c.animaapp.com/62D5stbl/img/album-cover-png-1@2x.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.frame .set-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 37px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.frame .content-source-logo {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+
+.frame .image {
+  position: absolute;
+  width: 39px;
+  height: 39px;
+  top: 5px;
+  left: 4px;
+  object-fit: cover;
+}
+
+.frame .timeline-scrubber {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 18px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .time-remaining-div {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Asta Sans OTF-Regular", Helvetica;
+  font-weight: 400;
+  color: #424242;
+  font-size: 22px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.frame .scrubber-time-bar {
+  width: 176px;
+  height: 9px;
+  background-color: #000000;
+}
+
+.frame .div-wrapper {
+  margin-bottom: -1.00px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 294px;
+  margin-left: -1.00px;
+  margin-right: -1.00px;
+  background-color: #ffffff;
+  overflow: hidden;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #a5a5a5;
+}
+/* Original CSS code should be injected here */
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.content-wrapper {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 124px;
+  margin-top: -1px;
+  margin-left: -1px;
+  margin-right: -1px;
+  background-color: #ffffff;
+  border-top: 1px solid #a5a5a5;
+  border-bottom: 1px solid #a5a5a5;
+}
+
+.header-div {
+  position: absolute;
+  top: 37px;
+  left: 37px;
+  font-family: "Asta Sans OTF-Medium", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 40px;
+}
+
+.content-wrapper-div {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 294px;
+  margin-left: -1px;
+  margin-right: -1px;
+  background-color: #ffffff;
+  border-top: 1px solid #a5a5a5;
+  border-bottom: 1px solid #a5a5a5;
+}
+
+.content-container {
+  display: flex;
+  width: 846px;
+  height: 198px;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 0 40px;
+  position: relative;
+  top: 48px;
+}
+
+.set {
+  display: flex;
+  flex-direction: column;
+  height: 198px;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px 0 0;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.title-artist-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.title-div {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Asta Sans OTF-Medium", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 36px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.artist-div {
+  position: relative;
+  align-self: stretch;
+  font-family: "Asta Sans OTF-Regular", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #888888;
+  font-size: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.logo-switch-div {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+.text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: "Asta Sans OTF-Regular", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #515151;
+  font-size: 27px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.toggle-switch {
+  position: relative;
+  width: 94px;
+  height: 54px;
+  display: inline-block;
+}
+
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #005bed;
+  transition: .4s;
+  border-radius: 100px;
+}
+
+.switch:before {
+  position: absolute;
+  content: "";
+  height: 38px;
+  width: 38px;
+  top: 8px;
+  left: 8px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .switch:before {
+  transform: translateX(40px);
+}
+
+.traffic-bar-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 18px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.div {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 9px;
+  background-color: #d9d9d9;
+}
+
+.content-container-wrapper,
+.div-wrapper {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 294px;
+  margin-left: -1px;
+  margin-right: -1px;
+  background-color: #ffffff;
+  overflow: hidden;
+  border-top: 1px solid #a5a5a5;
+  border-bottom: 1px solid #a5a5a5;
+}
+
+.content-container-2 {
+  display: flex;
+  width: 846px;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 0 40px;
+  position: relative;
+  top: 48px;
+}
+
+.album-cover-div {
+  width: 196px;
+  height: 196px;
+  object-fit: cover;
+}
+
+.set-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 37px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.content-source-logo {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+
+.image {
+  position: absolute;
+  width: 39px;
+  height: 39px;
+  top: 5px;
+  left: 4px;
+  object-fit: cover;
+}
+
+.timeline-scrubber {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 18px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.time-remaining-div {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Asta Sans OTF-Regular", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #424242;
+  font-size: 22px;
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.scrubber-time-bar {
+  width: 176px;
+  height: 9px;
+  background-color: #000000;
+}
+
+.div-wrapper {
+  margin-bottom: -1px;
+}
